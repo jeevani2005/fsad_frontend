@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "src/css/Projecthomepage.css";
+import "../css/Projecthomepage.css";
 import { BASEURL, callApi,setSession } from "../api";
 
 export class Projecthomepage extends Component {
