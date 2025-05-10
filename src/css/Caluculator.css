@@ -1,0 +1,68 @@
+/* src/Calculator.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #f1f2f6;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.calc-container {
+  width: 320px;
+  margin: 60px auto;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  background: #fff;
+}
+
+.calc-display {
+  width: 100%;
+  height: 80px;
+  font-size: 2rem;
+  text-align: right;
+  padding: 0 20px;
+  border: none;
+  background: #2f3542;
+  color: #fff;
+}
+
+.calc-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.calc-button {
+  font-size: 1.5rem;
+  padding: 20px;
+  border: 1px solid #dcdde1;
+  background: #a9e7ef;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.calc-button:hover {
+  background: #dcdde1;
+}
+
+.calc-operator {
+  background: #70a1ff;
+  color: white;
+}
+
+.calc-operator:hover {
+  background: #40739e;
+}
+
+.calc-equals {
+  background: #2ed573;
+  color: white;
+}
+
+.calc-equals:hover {
+  background: #20bf6b;
+}
+
+.calc-zero {
+  grid-column: span 2;
+}

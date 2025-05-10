@@ -1,0 +1,56 @@
+.dashboard {
+  width: 100%;
+  height: 100vh;
+  background: rgb(45, 139, 132);
+  display: grid;
+  grid-template-rows: 50px auto;
+  grid-template-columns: 200px auto;
+  gap: 1px;
+}
+
+.dashboard .headr {
+  background: rgb(45, 139, 132);
+  grid-column: 1 / span 2;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.men{
+background-color:red ;
+}
+.dashboard .men {
+width: 350px;
+  background-color: #81E7AF;
+  height: calc(100vh - 50px); /* Take full height minus header */
+  overflow-y: auto; /* Internal scrolling if content overflows */
+}
+
+.dashboard .outle {
+  background: #E9F5BE;
+  height: calc(100vh - 50px); /* Take full height minus header */
+  overflow-y: auto; /* Internal scrolling if content overflows */
+}
+
+.dashboard .headr .log {
+  width: 48px;
+  height: 48px;
+  float: left;
+  margin-left: 10px;
+}
+
+.headr .logou {
+  
+  width: 24px;
+  float: right;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+
+.headr .logou:hover {
+  cursor: pointer;
+}
+
+.headr label {
+  font-weight: bold;
+  float: right;
+  margin-right: 20px;
+  margin-top: 15px;
+}

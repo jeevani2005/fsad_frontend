@@ -1,0 +1,55 @@
+.income-bills-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.input-row {
+  margin-bottom: 15px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.currency {
+  margin-right: 5px;
+}
+
+.more-info {
+  margin-left: 10px;
+  cursor: pointer;
+  background-color:rgb(45, 139, 132);
+}
+.more-info :hover{
+  background-color:rgb(45, 139, 132);
+
+}
+
+.info-text {
+  font-size: 0.9em;
+  color: gray;
+  margin-top: 5px;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.data-section, .all-data-section {
+  margin-top: 30px;
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+}
+.warning {
+  color: red;
+  font-weight: bold;
+  background-color: #ffe6e6;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 5px;
+  margin-top: 10px;
+}

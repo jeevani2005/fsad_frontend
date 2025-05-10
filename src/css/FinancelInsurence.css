@@ -1,0 +1,141 @@
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #2c3e50;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+td {
+  font-size: 16px;
+  color: #34495e;
+}
+
+/* Alternate Row Color for Better Readability */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Styling the "Sell?" Column */
+td:last-child {
+  font-weight: bold;
+  color: #e74c3c;
+}
+/* FinancelInsurence.css */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+button {
+  padding: 5px 10px;
+  border: none;
+  background-color:rgb(45, 139, 132);
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color:rgb(45, 139, 132);
+
+}
+/* Styling for the form container */
+form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: 20px auto;
+}
+
+/* Styling for each form field */
+form div {
+  margin-bottom: 15px;
+}
+
+/* Label styling */
+form label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Input field styling */
+form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+form input[type="checkbox"] {
+  width: auto;
+  margin-right: 10px;
+}
+
+/* Button styling */
+form button {
+  background-color: rgb(45, 139, 132);
+    color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+form button:hover {
+background-color: rgb(45, 139, 132);
+}
+
+/* Styling for the form submission button */
+form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Optional: Adding some space between the form and the investment table */
+table {
+  margin-top: 30px;
+}
+.sellbutton{
+  background-color: #34495e;
+  font-size: 30px;
+  border-radius: 20px 0px 20px 0px;
+}

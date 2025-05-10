@@ -1,0 +1,446 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    overflow-x: hidden;
+}
+.info-sections {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color:#D3F1DF;
+  }
+  
+   .contact-us {
+    width: 50%;
+    background: #FFFDF6;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.5rem;
+    margin: 0.5rem 0 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    padding: 0.5rem;
+    height: 40px;
+    background-color: #328E6E;
+    color: white;
+    border: none;
+    border-radius: 20px 0px 20px 0px;
+    cursor: pointer;
+  }
+  .faq-section {
+    background:#D3F1DF;
+    padding: 40px 20px;
+    margin: 20px;
+    border-radius: 12px;
+  }
+  
+  .faq-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .faq-item {
+    margin-bottom: 15px;
+  }
+  .faq{
+    color: #67AE6E;
+  }
+  .faq-question {
+    width: 100%;
+    background:#328E6E;
+    color: white;
+    padding: 12px 16px;
+    text-align: left;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px 0px 20px 0px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .faq-question:hover {
+    background:#328E6E;
+  }
+  
+  .faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 16px;
+    background: #fff;
+    border-left: 4px solid #328E6E;
+    border-radius: 0 0 8px 8px;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+  }
+  
+  .faq-answer.open {
+    max-height: 200px;
+    padding: 12px 16px;
+  }
+  
+.button{
+    width: 100%;
+    height: 35px;
+    color: white;
+    border:none;
+  background-color:#328E6E;
+border-radius: 20px 0px 20px 0px;
+}
+.container-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.left-texts {
+    flex: 1;
+    padding: 20px;
+}
+
+.right-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+.right-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+/* Header Section */
+.header {
+    background-color: #328E6E;
+    width: 100%;
+    height: 78px;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+   
+}
+
+
+.header .logo {
+   height:60px;
+    width: 60px;
+}
+
+.header .logo-text {
+    font-style: oblique;
+    font-size: 20pt;
+    font-weight: bold;
+    margin-left: -20.5%;
+    
+}
+
+.header .kl-text {
+    font-size: 16pt;
+    font-weight: bold;
+    color: #eceaef;
+}
+
+.header .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.header .signinButton {
+    height: 35px;
+    background: green;
+    color: white;
+    font-weight: bold;
+    border-radius:  20px 0px 20px 0px;
+    border: none;
+    cursor: pointer;
+    padding: 5px 15px;
+    transition: background 0.3s ease;
+}
+
+.header .signinButton:hover {
+    background: rgba(0, 128, 0, 0.8);
+}
+
+.header .right-corner-logo {
+    width: 50px;
+    padding: 5px;
+}
+
+.header .logout-text {
+    font-size: 15pt;
+    font-weight: bold;
+    color: rgb(24, 24, 200);
+}
+
+/* Container Section */
+.container {
+    background-color:#D3F1DF;
+    width: 100%;
+    padding: 10px;
+    min-height: calc(100vh - 128px);
+    overflow: hidden;
+    
+}
+.signupLink{
+    color: red;
+    align-items: center;
+    justify-content: center;
+}
+.signup{
+    align-items: center;
+    justify-content: center;
+}
+.lablepass{
+padding-bottom: 10px;
+}
+.signinLink{
+     align-items: center;
+    justify-content: center;
+}
+.text1 {
+    margin: 10px;
+    font-size: 55px;
+    font-weight: bold;
+    color: #67AE6E;
+}
+.div2{
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.text2 {
+    margin: 20px 10px 10px 10px;
+    font-size: 15px;
+    color:#90C67C;
+    font-style: initial;
+}
+
+.text3 {
+    margin: 10px;
+    font-size: 14pt;
+    font-weight: bold;
+}
+.logo-text {
+    margin: 0 auto;
+  }
+.signup label{
+    font-size: small;
+}
+
+/* Search Bar Section */
+.searchBar {
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(128, 130, 131);
+    border-radius: 15px;
+    width: 700px;
+    height: 50px;
+    padding: 5px;
+
+
+}
+#footer{
+    display: flex;
+    background-color: #328E6E;
+    color: #D3F1DF;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.rolrrole{
+    border-radius: 10px;
+}
+.signinLink{
+    color: red;
+    font-size: medium;
+}
+.searchText, .searchLocation {
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-right: 1px solid gray;
+    font-size: 12pt;
+    padding: 5px;
+}
+
+.searchButton {
+    height: 40px;
+    background: rgb(26, 192, 26);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.searchButton:hover{
+    background-color: green;
+}
+
+/* Popup Window */
+#popup {
+    width: 100%;
+    height: 100%;
+    background: rgba(241, 238, 236, 0.5);
+    position: fixed;
+    z-index: 999;
+    display: none;
+}
+
+.popupWindow {
+    width: 300px;
+    height: 450px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    border-radius:  20px 0px 20px 0px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+#popupHeader {
+    width: 100%;
+    height: 60px;
+    background-color: green;
+    color: white;
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.signin {
+    padding: 20px;
+    font-size: 14px;
+}
+
+.signin-text{
+    color: rgb(250, 249, 250);
+    font-size: 20px;
+}
+.usernameLabel, .passwordLabel {
+    margin: -2px 4px -2px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#signup label{
+    font-size: medium;
+    display: block;
+}
+
+#signup select{
+    width:100%;
+    height: 30px;
+    border:1px solid silver;
+    border-radius:  20px 0px 20px 0px;
+}
+#signup button{
+    width: 100%;
+    height: 35px;
+    background-color: rgb(15,135,55);
+    color: white;
+    border:none;
+    border-radius:  20px 0px 20px 0px;
+}
+.forgotPassword {
+    text-align: right;
+    margin-top: 5px;
+}
+
+.forgotPassword label {
+    color: red;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.signinButton {
+    width: 100%;
+    height: 35px;
+    background: rgb(14, 106, 7);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    border-radius: 20px 0px 20px 0px;
+    transition: background 0.3s ease;
+}
+.div2{
+    font-size: medium;
+}
+.signinButton:hover {
+    background: rgba(225, 147, 1, 0.907);
+}
+
+/* Footer Section */
+.footer {
+    background-color:  #328E6E;
+    width: 100%;
+    height: 50px;
+    color: #CAE0BC;
+    display: flex;
+    align-items: center;
+   
+    padding: 0 20px;
+   
+    /* margin-bottom: 80%; */
+}
+
+.copyrightText {
+    font-size: 10pt;
+    color: #CAE0BC;
+}
+
+.socialmediaIcon {
+    width: 16px;
+    margin-left: 10px;
+}
+.logo-text{
+    padding-left: 320px;
+ }
+ .container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
